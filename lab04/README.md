@@ -148,7 +148,7 @@ print(a)
 *Таким образом:*
 ```
 C++: k e
-Python: kt 
+Python: kť 
 ```
 
 
