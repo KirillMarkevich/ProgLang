@@ -221,33 +221,6 @@ $\frac{p}{q}$, *где* $p$ *и* $q$ - *целые числа.) Напишите
 [http://olymp3.isu.ru/cgi-bin/new-client?contest_id=102](http://olymp3.isu.ru/cgi-bin/new-client?contest_id=102), *задача 03*.
 
 
-**Решение**
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-    long long p1, q1, p2, q2, p3, q3, p4, q4;
-    cin >> p1 >> q1 >> p2 >> q2 >> p3 >> q3 >> p4 >> q4;
-
-    __int128 left_num = (__int128)p1 * q2 + (__int128)p2 * q1;
-    __int128 left_den = (__int128)q1 * q2;
-
-    __int128 right_num = (__int128)p3 * q4 + (__int128)p4 * q3;
-    __int128 right_den = (__int128)q3 * q4;
-
-    __int128 left = left_num * right_den;
-    __int128 right = right_num * left_den;
-
-    if (left > right) cout << 1 << '\n';
-    else if (left < right) cout << -1 << '\n';
-    else cout << 0 << '\n';
-
-    return 0;
-}
-```
-
 
 ## Дополнительные задания
 
