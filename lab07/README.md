@@ -145,7 +145,7 @@ for (int i = -1; i < 9;)
 (x++) = y; // ошибка
 ```
 
-Текст сообщения зависит от компилятора. Например, GCC может сообщить:
+Текст сообщения об ошибке:
 
 ```text
 error: lvalue required as left operand of assignment
