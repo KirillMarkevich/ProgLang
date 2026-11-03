@@ -251,7 +251,8 @@ int to = 5;
 *Написанные программы сохраните в папку с номером задания.*
 
 
-**Решение — Python:**
+**Решение:**
+
 ```python
 numbers = [int(x) for x in input().split()]
 
@@ -263,7 +264,6 @@ else:
     print("Все числа неотрицательные")
 ```
 
-**Решение — C++:**
 ```cpp
 #include <iostream>
 #include <vector>
